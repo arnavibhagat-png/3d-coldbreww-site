@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Premium SEO Metadata -->
+    <title>Velvet Drip | Premium 3D Cold Brew Coffee Experience</title>
+    <meta name="description" content="Experience Velvet Drip. Slowly steeped for 24 hours inside thermal columns. A premium, 3D scroll-driven immersion into fine extraction.">
+    <meta name="keywords" content="cold brew, specialty coffee, luxury coffee, slow steep, organic coffee, premium brew">
+    <meta name="author" content="Velvet Drip Coffee Co.">
+    
+    <!-- Open Graph (Facebook/LinkedIn) -->
+    <meta property="og:title" content="Velvet Drip | Premium Cold Brew Coffee Experience">
+    <meta property="og:description" content="Experience the rich, silky splash of slow-steeped Velvet Drip. Scroll to extract.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="ezgif-frame-100.jpg">
+    
+    <!-- Google Fonts: Outfit & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Premium Preloader -->
+    <div id="preloader" class="preloader-overlay">
+        <div class="preloader-content">
+            <h2 class="preloader-brand">VELVET DRIP</h2>
+            <div class="loader-track">
+                <div id="loader-bar" class="loader-bar"></div>
+            </div>
+            <p class="loader-text">BUFFERING 3D COLD DRIP &bull; <span id="load-percentage">0%</span></p>
+        </div>
+    </div>
+
+    <!-- Persistent Header Navigation -->
+    <header class="main-header">
+        <div class="logo">
+            <span class="logo-text">VELVET DRIP</span>
+            <span class="logo-dot"></span>
+        </div>
+        <nav class="nav-links">
+            <a href="#hero-view" class="nav-link">The Concept</a>
+            <a href="#craft-view" class="nav-link">The Process</a>
+            <a href="#features-view" class="nav-link">The Notes</a>
+            <a href="#order-view" class="nav-link">Reserve</a>
+        </nav>
+        <div class="header-cta">
+            <a href="#order-view" class="cta-button header-btn">Order Now</a>
+        </div>
+    </header>
+
+    <!-- Fullscreen Fixed 3D Canvas Background -->
+    <canvas id="animation-canvas"></canvas>
+
+    <!-- Unified Scrollable Pages Container -->
+    <div class="scroll-wrapper">
+
+        <!-- 1. Hero Title Overlay (Triggers Frame 1-50) -->
+        <section id="hero-view" class="scroll-section hero-section perspective-container">
+            <div class="section-content-3d">
+                <span class="hero-subtitle fade-in-up">EST. 2026</span>
+                <h1 class="hero-title fade-in-up">Crafted in the Dark.<br><span class="highlight-text">Served on Ice.</span></h1>
+                <p class="hero-desc fade-in-up">
+                    Meticulously steeped for 24 hours to filter out acidity, leaving a full-bodied, silky nectar. Scroll to experience the splash.
+                </p>
+                <div class="scroll-indicator fade-in-up">
+                    <span class="scroll-arrow">&#8595;</span>
+                    <span class="scroll-text">SCROLL TO EXTRACT</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. The Process Cards Overlay (Triggers Frame 51-140) -->
+        <section id="craft-view" class="scroll-section craft-section perspective-container">
+            <div class="section-content-3d grid-cards">
+                
+                <div class="process-card card-3d-left" id="process-card-1">
+                    <span class="card-step">01</span>
+                    <h3>Coarse Saturation</h3>
+                    <p>Coarsely ground organic Arabica beans are slowly saturated in pure alkaline water at exactly 4°C, protecting the delicate flavor profile.</p>
+                </div>
+
+                <div class="process-card card-3d-right" id="process-card-2">
+                    <span class="card-step">02</span>
+                    <h3>Thermal Barrier</h3>
+                    <p>Brewed inside vacuum-sealed thermal glass columns, preventing ambient oxygen contact and eliminating bitter oxidation notes.</p>
+                </div>
+
+                <div class="process-card card-3d-left" id="process-card-3">
+                    <span class="card-step">03</span>
+                    <h3>Triple Gravity Filter</h3>
+                    <p>Our coffee concentrate drops slowly through three stages of natural cotton filters to isolate the smooth nectar from fine sediment.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 3. Tasting Notes Grid (Triggers Frame 141-190) -->
+        <section id="features-view" class="scroll-section features-section perspective-container">
+            <div class="section-content-3d notes-wrapper">
+                <div class="section-header">
+                    <span class="section-tag">TASTING PROFILE</span>
+                    <h2 class="section-title">A Symphony of Flavors</h2>
+                    <p class="section-subtitle">Our cold brewing process creates a unique chemical structure that is naturally sweet and 67% less acidic than hot brewed coffee.</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card card-3d-item">
+                        <div class="feature-icon">🍫</div>
+                        <h3>Dark Cocoa & Truffle</h3>
+                        <p>Deep, indulgent cacao notes that form the foundation of our dark roast blend. Round, earthy, and naturally smooth.</p>
+                    </div>
+                    <div class="feature-card card-3d-item">
+                        <div class="feature-icon">🍊</div>
+                        <h3>Caramelized Orange</h3>
+                        <p>A bright, subtle top note of citrus zest that cuts through the rich body without adding harsh, sour acidity.</p>
+                    </div>
+                    <div class="feature-card card-3d-item">
+                        <div class="feature-icon">🍯</div>
+                        <h3>Toasted Maple</h3>
+                        <p>A lingering finish of warm wood sugars and toasted maple, developing naturally during the 24-hour steep process.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Reservation Form (Triggers Frame 191-240) -->
+        <section id="order-view" class="scroll-section order-section perspective-container">
+            <div class="section-content-3d order-grid-wrapper">
+                
+                <div class="order-info card-3d-left">
+                    <span class="order-tag">LIMITED BATCH</span>
+                    <h2>Secure Your Cold Brew</h2>
+                    <p>We brew in micro-batches of 50 bottles daily. Reserve your bottle below for courier delivery tomorrow morning, shipped in insulated cold packs.</p>
+                    <div class="order-features">
+                        <div class="order-feature-item">
+                            <span class="check-icon">✓</span>
+                            <span>Freshly extracted tonight</span>
+                        </div>
+                        <div class="order-feature-item">
+                            <span class="check-icon">✓</span>
+                            <span>Shipped in thermal cooling packs</span>
+                        </div>
+                        <div class="order-feature-item">
+                            <span class="check-icon">✓</span>
+                            <span>Keeps fresh for up to 14 days</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-form-container card-3d-right">
+                    <form id="reserve-form" class="reserve-form">
+                        <h3>Reserve A Bottle</h3>
+                        <p class="form-desc">Complete your reservation for next-day dispatch.</p>
+                        
+                        <div class="form-group">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" id="full-name" required placeholder="E.g., Alexander Mercer">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email-address">Email Address</label>
+                            <input type="email" id="email-address" required placeholder="name@domain.com">
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="quantity">Quantity</label>
+                                <select id="quantity" required>
+                                    <option value="1">1 Bottle (750ml) - $14.99</option>
+                                    <option value="2" selected>2 Bottles (Saver pack) - $26.99</option>
+                                    <option value="4">4 Bottles (Party pack) - $49.99</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="delivery-slot">Delivery Slot</label>
+                                <select id="delivery-slot" required>
+                                    <option value="morning">Morning (7 AM - 10 AM)</option>
+                                    <option value="noon">Midday (11 AM - 2 PM)</option>
+                                    <option value="evening">Evening (5 PM - 8 PM)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="cta-button submit-btn">
+                            Confirm My Reservation
+                        </button>
+                    </form>
+                    
+                    <div id="form-success-message" class="form-success-card hidden">
+                        <div class="success-icon">✓</div>
+                        <h3>Reservation Locked!</h3>
+                        <p>Thank you, <span id="success-user-name">Guest</span>. We have saved your slot for <span id="success-slot">morning</span> delivery of <span id="success-qty">2 Bottles</span>. A confirmation email was sent to <span id="success-email">your address</span>.</p>
+                        <button class="cta-button back-btn" id="form-reset-btn">Order More</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="container footer-grid">
+                <div class="footer-brand-col">
+                    <h3>VELVET DRIP</h3>
+                    <p>Redefining coffee through slow time, low temperature, and rich flavor extraction.</p>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="#hero-view">The Craft</a></li>
+                        <li><a href="#craft-view">Process</a></li>
+                        <li><a href="#features-view">Tasting Notes</a></li>
+                        <li><a href="#order-view">Reserve Batch</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact-col">
+                    <h4>Visit Us</h4>
+                    <p>108 Cold Harbor Lane<br>Brewery District, NY 10003</p>
+                    <p class="footer-email">support@velvetdrip.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Velvet Drip Coffee Co. All rights reserved. Created with Veo technology.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Script file -->
+    <script src="main.js"></script>
+</body>
+</html>
